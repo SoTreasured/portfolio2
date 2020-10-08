@@ -1,0 +1,30 @@
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: black;
+        min-width: 320px;
+    }
+
+    div.flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    div.flex > div > span{
+        text-shadow: transparent;
+        color: whitesmoke;
+       
+    }
+    nav.linkbox ul li, nav.linkbox ul{
+        display: inline;
+        justify-content: space-around;
+        padding-right: 0px;
+    
+    }
+    nav.linkbox ul li a span{
+        display: none;
+        visibility: hidden;
+    }
+    nav.linkbox ul li a i{
+        padding-left: 10px;
+        color: white;
+    }
+}
