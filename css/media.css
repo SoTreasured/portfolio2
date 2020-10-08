@@ -7,10 +7,11 @@
     div.flex{
         display: flex;
         justify-content: space-between;
+        
     }
     div.flex > div > span{
         text-shadow: transparent;
-        color: whitesmoke;
+        color:black;
        
     }
     nav.linkbox ul li, nav.linkbox ul{
@@ -25,6 +26,6 @@
     }
     nav.linkbox ul li a i{
         padding-left: 10px;
-        color: white;
+        color: black;
     }
 }
